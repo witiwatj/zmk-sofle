@@ -93,6 +93,36 @@
             bindings = <&sl 3>;
             key-positions = <0 5>;
         };
+
+        snap_left {
+            bindings = <&kp LG(LEFT)>;
+            key-positions = <28 16>;
+        };
+
+        snap_right {
+            bindings = <&kp LG(RIGHT)>;
+            key-positions = <30 16>;
+        };
+
+        full_screen {
+            bindings = <&kp LG(UP_ARROW)>;
+            key-positions = <30 28 16>;
+        };
+
+        minimize {
+            bindings = <&kp LG(DOWN)>;
+            key-positions = <30 28 29>;
+        };
+
+        move_window_left {
+            bindings = <&kp LS(LG(LEFT))>;
+            key-positions = <29 28>;
+        };
+
+        move_window_right {
+            bindings = <&kp LS(LG(RIGHT))>;
+            key-positions = <29 30>;
+        };
     };
 
     macros {
