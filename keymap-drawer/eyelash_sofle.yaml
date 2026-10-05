@@ -277,3 +277,15 @@ combos:
   k: {t: LAYER0, h: toggle}
 - p: [0, 5]
   k: {t: layer3, h: '$$mdi:gesture-tap-hold$$'}
+- p: [28, 16]
+  k: Gui+$$mdi:arrow-left-bold$$
+- p: [30, 16]
+  k: Gui+$$mdi:arrow-right-bold$$
+- p: [30, 28, 16]
+  k: Gui+$$mdi:arrow-up-bold$$
+- p: [30, 28, 29]
+  k: Gui+$$mdi:arrow-down-bold$$
+- p: [29, 28]
+  k: Sft+Gui+$$mdi:arrow-left-bold$$
+- p: [29, 30]
+  k: Sft+Gui+$$mdi:arrow-right-bold$$
