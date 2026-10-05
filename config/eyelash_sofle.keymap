@@ -97,31 +97,37 @@
         snap_left {
             bindings = <&kp LG(LEFT)>;
             key-positions = <28 16>;
+            require-prior-idle-ms = <100>;
         };
 
         snap_right {
             bindings = <&kp LG(RIGHT)>;
             key-positions = <30 16>;
+            require-prior-idle-ms = <100>;
         };
 
         full_screen {
             bindings = <&kp LG(UP_ARROW)>;
             key-positions = <30 28 16>;
+            require-prior-idle-ms = <100>;
         };
 
         minimize {
             bindings = <&kp LG(DOWN)>;
             key-positions = <30 28 29>;
+            require-prior-idle-ms = <100>;
         };
 
         move_window_left {
             bindings = <&kp LS(LG(LEFT))>;
             key-positions = <29 28>;
+            require-prior-idle-ms = <100>;
         };
 
         move_window_right {
             bindings = <&kp LS(LG(RIGHT))>;
             key-positions = <29 30>;
+            require-prior-idle-ms = <100>;
         };
     };
 
