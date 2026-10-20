@@ -132,11 +132,11 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   arrow:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+Alt+Gui+1
-  - Gui+Alt+Ctl+2
-  - Alt+Ctl+Gui+3
-  - Ctl+Gui+Alt+4
-  - {t: Ctl+Alt+Gui+5, s: Ctl+Alt+Gui+%}
+  - {t: Alt+Ctl+Gui+1, h: Ctl+Alt+1}
+  - {t: Alt+Ctl+Gui+2, h: Alt+Ctl+2}
+  - {t: Alt+Ctl+Gui+3, h: Alt+Ctl+3}
+  - {t: Alt+Ctl+Gui+4, h: Ctl+Alt+4}
+  - {t: Alt+Ctl+Gui+5, h: Ctl+Alt+5, s: Alt+Ctl+Gui+%}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
