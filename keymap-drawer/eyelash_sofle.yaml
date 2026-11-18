@@ -162,7 +162,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Alt+Ctl+A
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
@@ -289,5 +289,3 @@ combos:
   k: Sft+Gui+$$mdi:arrow-left-bold$$
 - p: [29, 30]
   k: Sft+Gui+$$mdi:arrow-right-bold$$
-- p: [42, 43]
-  k: Alt+Gui+A
