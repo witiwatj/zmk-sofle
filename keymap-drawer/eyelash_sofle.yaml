@@ -132,11 +132,11 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   arrow:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Alt+Ctl+Gui+1, h: Ctl+Alt+1}
-  - {t: Alt+Ctl+Gui+2, h: Alt+Ctl+2}
-  - {t: Alt+Ctl+Gui+3, h: Alt+Ctl+3}
-  - {t: Alt+Ctl+Gui+4, h: Ctl+Alt+4}
-  - {t: Alt+Ctl+Gui+5, h: Ctl+Alt+5, s: Alt+Ctl+Gui+%}
+  - {t: Alt+Ctl+Gui+1, h: (LC(LA(1)))}
+  - {t: Alt+Ctl+Gui+2, h: (LA(LC(2)))}
+  - {t: Alt+Ctl+Gui+3, h: (LA(LC(3)))}
+  - {t: Alt+Ctl+Gui+4, h: (LC(LA(4)))}
+  - {t: Alt+Ctl+Gui+5, h: (LC(LA(5))), s: Alt+Ctl+Gui+%}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -289,3 +289,5 @@ combos:
   k: Sft+Gui+$$mdi:arrow-left-bold$$
 - p: [29, 30]
   k: Sft+Gui+$$mdi:arrow-right-bold$$
+- p: [42, 43]
+  k: Alt+Gui+O
