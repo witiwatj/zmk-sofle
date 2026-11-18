@@ -290,4 +290,4 @@ combos:
 - p: [29, 30]
   k: Sft+Gui+$$mdi:arrow-right-bold$$
 - p: [42, 43]
-  k: Alt+Gui+O
+  k: Alt+Gui+Sft+A
