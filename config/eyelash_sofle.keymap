@@ -135,11 +135,6 @@
             require-prior-idle-ms = <100>;
             timeout-ms = <10>;
         };
-
-        Open_path_clipboard {
-            bindings = <&kp LA(LG(A))>;
-            key-positions = <42 43>;
-        };
     };
 
     macros {
@@ -192,7 +187,7 @@
             bindings = <
 &none  &TH_2 (LC(LA(NUMBER_1))) LA(LC(LG(NUMBER_1)))  &TH_2 (LA(LC(NUMBER_2))) LA(LC(LG(NUMBER_2)))  &TH_2 (LA(LC(NUMBER_3))) LA(LC(LG(NUMBER_3)))  &TH_2 (LC(LA(NUMBER_4))) LA(LC(LG(NUMBER_4)))  &TH_2 (LC(LA(N5))) LA(LC(LG(N5)))    &none  &none  &none      &none     &none      &none     &none
 &none  &none                                          &kp UP                                         &none                                          &none                                          &none                                &none  &none  &mkp LCLK  &kp UP    &mkp RCLK  &none     &none
-&none  &kp LEFT                                       &kp DOWN                                       &kp RIGHT                                      &none                                          &none                                &none  &none  &kp LEFT   &kp DOWN  &kp RIGHT  &kp UP    &none
+&none  &kp LEFT                                       &kp DOWN                                       &kp RIGHT                                      &none                                          &kp LA(LC(A))                        &none  &none  &kp LEFT   &kp DOWN  &kp RIGHT  &kp UP    &none
 &none  &none                                          &none                                          &none                                          &none                                          &none                                &none  &none  &none      &none     &kp LEFT   &kp DOWN  &kp RIGHT
 &none  &none                                          &none                                          &none                                          &none                                          &none                                &none  &none  &none      &none     &none      &none
             >;
