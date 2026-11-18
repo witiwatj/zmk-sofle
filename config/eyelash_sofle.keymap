@@ -137,7 +137,7 @@
         };
 
         Open_path_clipboard {
-            bindings = <&kp LA(LG(LS(A)))>;
+            bindings = <&kp LA(LG(A))>;
             key-positions = <42 43>;
         };
     };
